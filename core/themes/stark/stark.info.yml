@@ -4,6 +4,8 @@ description: 'An intentionally plain theme with no styling to demonstrate defaul
 package: Core
 # version: VERSION
 # core: 8.x
+libraries:
+  - stark/global-styling
 base theme: false
 
 # Information added by Drupal.org packaging script on 2018-12-05

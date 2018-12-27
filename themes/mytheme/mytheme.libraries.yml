@@ -1,0 +1,9 @@
+global-styling:
+  version: VERSION
+  css:
+    assetc:
+      assets/lib/layui/css/layui.css: {}
+      assets/style/main.css: {}
+      assets/icon/iconfont.css: {}
+      assets/style/index.css: {}
+ 

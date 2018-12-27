@@ -1,0 +1,18 @@
+.main{
+    padding: 0;
+}
+.demo-wrap{
+    margin: 50px 40px; 
+    padding: 50px;
+    background: #f3f3f3;
+}
+.demo-wrap img{
+    width: 45%;
+    height: 400px;
+}
+.demo-des{
+    padding:  0 60px; 
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 50px;
+}

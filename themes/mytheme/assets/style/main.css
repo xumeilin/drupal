@@ -1,0 +1,53 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; font-family: arial;}
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+dd,dl{
+    list-style: none;
+}
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:Arial, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:none;}
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+figure{ margin: 0;}
+/* 公共样式 */
+body,html{
+    max-width: 1300px;
+    margin: 0 auto;
+    background: #fff;
+    font-family: Neue Helvetica ;
+    overflow-x: hidden;
+}
+
+.flex{
+    display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;
+}
+.flex-1{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;}
+.flex-column{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}
+.flex-row{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}
+.justify-content_flex-justify{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.flex-wrap{
+    -webkit-flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+.clearfix:after {
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+}
+.dq{
+	text-align: justify;
+}

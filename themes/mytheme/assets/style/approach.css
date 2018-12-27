@@ -1,0 +1,85 @@
+main{
+    padding: 0;
+}
+main>.content{
+    margin-bottom: 80px;
+}
+.phase-list{
+    margin-top: 45px;
+    padding-left: 108px; 
+    padding-right: 80px; 
+}
+.phase-list .header{
+    height: 45px;
+    width: 100%;
+    border-bottom: 2px solid #145e65;
+    line-height: 45px;
+}
+.phase-list .header2{
+    border-bottom: 2px solid #273787;
+}
+.phase-list .header3{
+    border-bottom: 2px solid #0897ce;
+}
+.phase-list .header h3{
+    padding-right: 30px; 
+    background: #145e65;
+    color: #fff;
+}
+.phase-list .header2 h3{
+    border-bottom: 2px solid #273787;
+    background: #273787;
+
+}
+.phase-list .header3 h3{
+    background: #0897ce;
+}
+.phase-list .header span{
+    padding-left: 30px; 
+}
+.phase-list .header .title1{
+    font-size: 22px;
+}
+.phase-list .header .title2{
+    font-size: 16px;
+}
+.phase-list .header .title3{
+    font-size: 16px;
+}
+.phase-content-list:nth-child(1){
+    color: #565656;
+}
+.phase-content-list{
+    margin: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.phase-content-list .left{
+    width: 100%;
+    padding-right: 3%; 
+}
+.phase-content-list .right{
+    width: 37%;
+}
+.phase-list .phase-Key{
+    background: #e7eeef;
+    padding: 20px;
+}
+.phase-list .phase-Key .title{
+    font-size: 22px;
+    margin-bottom:15px; 
+}
+.phase-list .phase-Key p{
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 16px; 
+}
+.phase-list:nth-of-type(2) .phase-Key{
+
+    background: #e9ebf3;
+}
+.phase-list:nth-of-type(3) .phase-Key{
+
+    background: #e6f4fa;
+}
+

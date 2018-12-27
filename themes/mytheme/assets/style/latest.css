@@ -1,0 +1,245 @@
+.content-wrap{
+    margin-bottom: 100px; 
+}
+.content-wrap .left{
+    width: 600px;
+}
+.content-wrap>.right{
+    width: 300px;
+    margin-right: 10px; 
+    margin-left: 80px;  
+}
+.content-wrap .left .new-header{
+    font-size: 22px;
+    padding-left: 20px; 
+    position: relative;
+    height: 30px;
+    width: 20px;
+    z-index: 999;
+    background: yellow;
+    margin-bottom: 30px; 
+}
+.content-wrap .left .new-header::after{
+      content: attr(data-value);
+      position: absolute;
+      left: 20px;
+      top: 0;
+      height: 30px;
+      width: 300px;  
+      text-emphasis: none;
+      color: black;
+      line-height: 30px;
+    font-weight: 600;
+}
+.content-wrap .left .new-item{
+    margin-bottom: 30px;
+
+}
+.content-wrap .left .new-item .left{
+    padding-left: 25px; 
+   position: relative;
+}
+.content-wrap .left .new-item .left .title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px; 
+}
+.content-wrap .left .new-item .left .date{
+    font-size: 14px;
+    color: #556655;
+    margin-bottom: 20px; 
+}
+.content-wrap .left .new-item .left .des{
+    font-size: 16px;
+    color: #556655;
+    line-height: 30px;
+}
+.content-wrap .left .new-item .left .btn{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.content-wrap .left .new-item .left .btn i{
+    font-weight: 600px;
+    font-size: 26px;
+}
+.content-wrap .left .new-item .right{
+    width: 200px;
+    margin-left: 20px;
+}
+.content-wrap .left .new-item .right img{
+    width: 100%;
+}
+
+.event-wrap .even-header .left{
+    font-size: 22px;
+    padding-left: 20px; 
+    position: relative;
+    height: 30px;
+    width: 20px;
+    z-index: 999;
+    background: yellow;
+    margin-bottom: 30px;
+}
+.event-wrap .even-header .left::after{
+    content: attr(data-value);
+    position: absolute;
+    left: 20px;
+    top: 0;
+    height: 30px;
+    width: 300px;  
+    text-emphasis: none;
+    color: black;
+    line-height: 30px;
+  font-weight: 600;
+}
+
+.event-wrap .even-header .right {
+    color: #0065bd;
+    font-size: 16px;
+}
+
+.event-item{
+    border: 1px solid #ddd;
+    margin-bottom: 30px; 
+}
+.event-item .left {
+    width: 200px;
+    margin-right: 20px; 
+}
+.event-item .left img{
+    width: 100%;
+    height: 100%;
+}
+.event-item .right .right-header{
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 30px; 
+}
+.event-item .right .right-header .title{
+    height: 32px;
+    line-height: 32px;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+}
+.event-item .right .right-header .date{
+    padding: 0  25px;
+    background: #0099a6;
+    color: #fff;
+    font-size: 16px;
+}
+.event-item .right .des {
+    height: 120px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #999;
+}
+
+.pub-wrap .pub-header{
+    font-size: 22px;
+    padding-left: 20px; 
+    position: relative;
+    height: 30px;
+    width: 20px;
+    z-index: 999;
+    background: yellow;
+    margin-bottom: 30px;
+}
+.pub-wrap .pub-header::after{
+    content: attr(data-value);
+    position: absolute;
+    left: 20px;
+    top: 0;
+    height: 30px;
+    width: 300px;  
+    text-emphasis: none;
+    color: black;
+    line-height: 30px;
+  font-weight: 600;
+}
+.pub-wrap .pub-item,.pub-item2{
+    margin-bottom: 30px; 
+}
+.pub-wrap .pub-item .pub-img {
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+.pub-wrap .pub-item .pub-img img{
+    width: 100%;
+}
+.pub-wrap .pub-item .pub-img>.btn{
+    background: #ddd;
+    color: #666;
+    padding: 6px 15px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.pub-wrap .pub-item .des-wrap{
+    position: relative;
+    background: #f3f3f3;
+    padding: 0 20px;
+}
+.pub-wrap .pub-item .des-wrap .title{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    line-height: 45px;
+}
+.pub-wrap .pub-item .des-wrap .des{
+    line-height: 35px;
+    color: #666;
+    font-size: 14px;
+    height: 70px;
+}
+.pub-wrap .pub-item .des-wrap .btn{
+    text-align: right;
+    padding-bottom: 20px; 
+    cursor: pointer;
+}
+.pub-wrap .pub-item .des-wrap .btn i{
+    font-size: 22px;
+    line-height: 30px;
+}
+.pub-wrap .pub-item2 .left{
+    width: 90px;
+    height: 160px;
+    margin-right: 10px;
+}
+.pub-wrap .pub-item2 .left img{
+    width: 100%;
+    /*height: 100%;*/
+   /*margin-top:50px;*/
+   margin-top:15px;
+}
+.pub-wrap .pub-item2 .right{
+    position: relative;
+    background: #f3f3f3;
+    padding:  0 10px;
+}
+.pub-wrap .pub-item2 .right .title{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.pub-wrap .pub-item2 .right .des{
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+    height: 60px;
+}
+.pub-wrap .pub-item2 .right .btn{
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+.pub-wrap .pub-item2 .right .btn i{
+    color: #0065bd;
+    font-size: 28px;
+    line-height: 30px;
+}

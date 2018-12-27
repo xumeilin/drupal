@@ -1,0 +1,344 @@
+.curr-select {
+	background: #0065bd;
+	height: 45px;
+	text-align: center;
+	color: #fff;
+	width: 288px;
+	line-height: 45px;
+	margin-left: 361px;
+}
+
+.content-header {
+	line-height: 100px;
+	color: black;
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.tab-title {
+	width: 100%;
+	height: 100px;
+}
+
+.tab-title .tab-title-item {
+	padding: 5px 10px;
+	height: 90px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 80px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #0065bd;
+	cursor: pointer;
+}
+
+.tab-title .tab-title-item-purple {
+	padding: 5px 10px;
+	height: 90px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 80px;
+	line-height: 30px;
+	font-size: 16px;
+	color: purple;
+	cursor: pointer;
+}
+
+.tab-title .link-purple {
+	padding: 5px 10px;
+	height: 90px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 80px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	background: purple;
+	cursor: pointer;
+}
+
+.tab-title .tab-title-item-orange {
+	padding: 5px 10px;
+	height: 90px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 80px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #f37e00;
+	cursor: pointer;
+}
+
+.tab-title .link-purple {
+	padding: 5px 10px;
+	height: 90px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 80px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	background: purple;
+}
+
+.tab-title .link-orange {
+	padding: 5px 10px;
+	height: 90px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 80px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	background: #f37e00;
+}
+
+.tab-content-item {
+	min-height: 500px;
+	display: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: purple;
+	font-size: 30px;
+	/* text-align: center; */
+	padding-top: 30px;
+	margin-bottom: 100px;
+}
+
+.tab-content-item>.des {
+	min-height: 100px;
+	background: #e9f3ff;
+	padding: 40px;
+	text-align: left;
+	margin-bottom: 100px;
+}
+
+.tab-content-item>.des .left {
+	width: 48%;
+	margin-right: 4%;
+	font-size: 16px;
+	line-height: 35px;
+	color: black;
+}
+
+.tab-content-item>.des .right {
+	width: 48%;
+	font-size: 16px;
+	line-height: 35px;
+	color: black;
+}
+
+.tab-content-item .impact .impact-header {
+	height: 50px;
+	border-left: 5px solid #0065bd;
+	line-height: 50px;
+	font-size: 22px;
+	color: black;
+	text-indent: 30px;
+}
+
+.tab-content-item .impact .impact-content {
+	padding: 50px;
+}
+
+.tab-content-item .impact .impact-content .right {
+	width: 300px;
+	padding: 50px 0;
+	margin-left: 30px;
+}
+
+.tab-content-item .impact .impact-content .right img {
+	width: 100%;
+}
+
+.tab-content-item .impact .impact-content .left .title {
+	font-size: 22px;
+	color: black;
+	font-weight: 600;
+	line-height: 45px;
+	margin-bottom: 20px;
+}
+
+.tab-content-item .impact .impact-content .left .des {
+	font-size: 16px;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 30px;
+	line-height: 35px;
+}
+
+.contact .contact-main {
+	padding: 20px 0;
+}
+
+.contact .contact-header {
+	height: 50px;
+	border-left: 5px solid #0065bd;
+	line-height: 50px;
+	font-size: 22px;
+	color: black;
+	text-indent: 30px;
+}
+
+.contact-item {
+	width: 465px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.contact-item .left {
+	width: 200px;
+	margin-right: 10px;
+}
+
+.contact-item .left img {
+	width: 100%;
+	height: 100%;
+}
+
+.contact-item .right .name-label {
+	color: black;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.contact-item .right .name {
+	color: black;
+	margin-bottom: 40px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.contact-item .right .phone {
+	color: black;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.contact-item .right .phone i {
+	font-size: 26px;
+}
+
+.contact-item .right .email {
+	color: black;
+	font-size: 18px;
+}
+
+.contact-item .right .email i {
+	font-size: 26px;
+}
+
+
+/*.bg{
+	background: url(../image/supplyChainMannagement/bg.png) no-repeat;
+	background-size: 100%;
+}*/
+
+.bg img {
+	width: 100%;
+}
+
+#tool_container div {
+	width: 160px;
+	height: 30px;
+	/*background: black;*/
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	
+	cursor: pointer;
+}
+.index1{
+	left: 82%;
+	top: 46%;
+}
+.index2{
+	left: 62%;
+	top: 43%;
+}
+.index3{
+	left: 62%;
+	top: 46%;
+}
+.index4{
+	left: 45%;
+	top: 43%;
+}
+.index5{
+	left: 45%;
+	top: 61%;
+}
+.index6{
+	left: 26%;
+	top: 58%;
+}
+.index7{
+	left: 26%;
+	top: 49%;
+}
+.index8{
+	left: 26%;
+	top: 70%;
+}
+.index9{
+	left: 8%;
+	top: 43%;
+}
+.index10{
+	left: 8%;
+	top: 46%;
+}
+.index11{
+	width:80px !important;
+	left: 53%;
+	top: 21%;
+}
+.index12{
+	width:110px !important;
+	left: 60%;
+	top: 21%;
+}
+
+.layui-layer-title {
+	background-color: #0065bd !important;
+	color: #fff !important;
+	font-size: 20px !important;
+}
+
+.tanchu {
+	font-size: 22px;
+	padding-left: 20px;
+	position: relative;
+	height: 30px;
+	width: 20px;
+	z-index: 999;
+	background: yellow;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.description {
+	width: 95%;
+	margin: 0 auto;
+	height: auto;
+	background-color: #e9f3ff;
+}
+
+.cv {
+	float: left;
+	margin-left: 63px;
+	margin-bottom: 45px;
+}
+
+.cv img {
+	width: 80px;
+}
+
+.name_tanchu {
+	color: gray;
+	line-height: 25px;
+}
+
+.loca_tanchu {
+	line-height: 25px;
+}

@@ -1,0 +1,104 @@
+.layui-tab-card{
+    /* border-color: #0065bd;
+    border-top: 0; */
+    border: 0;
+    box-shadow: none;
+}
+.layui-tab-card>.layui-tab-title{
+    background: #fff;
+    height: 100px;
+}
+.layui-tab-card>.layui-tab-title li{
+    margin: 0; 
+    line-height: 100px;
+    border: 1px solid #ebf4ff;
+    /*padding: 0px 28px;*/
+    color: #0065bd;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.layui-tab-content{
+    padding: 0;
+    border: 1px solid #0065bd;
+    min-height: 500px;
+    margin-top: 1px; 
+}
+.layui-tab-card>.layui-tab-title li:nth-of-type(1){
+    margin: 0;
+}
+.layui-tab-card>.layui-tab-title .layui-this{
+    background-color: #0065bd;
+    color: #fff;
+}
+.layui-tab-title .layui-this:after{
+    content: '';
+    width: 0;
+    border: 0;
+}
+
+
+.curr-select{
+    background: #fff;
+
+height: 45px;
+
+text-align: center;
+
+color: #0065bd;
+
+width: 288px;
+
+line-height: 45px;
+
+/*margin-left: 650px;*/
+ margin-left:753px; 
+
+border-right: 1px solid #0065bd;
+
+border-left: 1px solid #0065bd;
+
+border-bottom: 1px solid #0065bd;
+}
+.content-header{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 100px; 
+}
+.layui-tab-item{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 50px 0 50px;
+}
+.growth-item{
+    width: 280px;
+    margin-right:50px; 
+    margin-bottom:50px; 
+}
+.growth-item:last-child{
+    margin: 0;
+}
+.growth-item .img-wrap img{
+    width: 100%;
+}
+.growth-item .title{
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    text-align: left;
+}
+.growth-item .des{
+    margin-top: 10px; 
+}
+.growth-item .btn{
+    width: 50px;
+    text-align: center;
+    background: #0065bd;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.growth-item .btn i{
+    color: #fff;
+    font-size: 33px;
+    line-height: 50px;
+}
