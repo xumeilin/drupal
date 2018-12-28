@@ -45,115 +45,80 @@
         {{ page.primary_menu }}
       </div>
     </header>
-    {% if page.highlighted %}
-      <div class="highlighted">
-        <aside class="layout-container section clearfix" role="complementary">
-          {{ page.highlighted }}
-        </aside>
-      </div>
-    {% endif %}
-    {% if page.featured_top %}
-      <div class="featured-top">
-        <aside class="featured-top__inner section layout-container clearfix" role="complementary">
-          {{ page.featured_top }}
-        </aside>
-      </div>
-    {% endif %}
     <main>
       <div class="main-header flex flex-row">
         <div class="content flex-1 clearfix">
             <div class="video-wrap flex flex-row">
                 <div class="video">
+                 {{ page.leftvideo }}
                 </div>
                 <div class="video-des flex-1">
-                    <h3 class="title">Digitize or die</h3>
-                    <p class="des">
-                            Customers today are demanding more
-                            innovation, more customization, and faster
-                            service . . . at a lower cost. Companies frst
-                            to deliver products that address customer
-                            requirements—and at a competitive cost—
-                            will win. They will be the frst to capture the
-                            next 30 percent in cost productivity improvement, and they will be the frst to capture...                               
-                    </p>
-                    <a href="detail.html"><button class="layui-btn read" id="read">Read More  <i class="layui-icon layui-icon-down"></i></button></a>
-                    <!-- <button class="layui-btn readless" id="readless">Read Less  <i class="layui-icon layui-icon-up"></i></button> -->
+                 {{ page.middletext }}    
                 </div>
             </div>
         </div>
         <aside>
-            <ul>
-              <h3 class="tip">Featured Links</h3>
-                <li class="aside-item">
-                    <a href="https://www.mckinsey.com/">McKinsey.com</a>
-                </li>
-                <li class="aside-item">
-                    <a href="https://home.intranet.mckinsey.com/intranet/">Frim Intranet</a>
-                </li>
-                <li class="aside-item">
-                    <a href="https://www.mckinsey.com/mgi/overview">McKinsey<br>Global Institute</a>
-                </li>
-                <li class="aside-item">
-                    <a href="https://home.intranet.mckinsey.com/gco/">Greater China<br>Office Intranet</a>
-                </li>
-                <li class="aside-item">
-                    <a href="https://www.mckinsey.com/quarterly/overview">McKinsey quarterly</a>
-                </li>
-            </ul>
+            {{ page.featuredlinks }}  
         </aside>
     </div>
-    <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
-      <div id="main" class="layout-main clearfix">
-        {{ page.breadcrumb }}
-        <main id="content" class="column main-content" role="main">
-          <section class="section">
-            <a id="main-content" tabindex="-1"></a>
-            {{ page.content }}
-          </section>
-        </main>
-        {% if page.sidebar_first %}
-          <div id="sidebar-first" class="column sidebar">
-            <aside class="section" role="complementary">
-              {{ page.sidebar_first }}
-            </aside>
-          </div>
-        {% endif %}
-        {% if page.sidebar_second %}
-          <div id="sidebar-second" class="column sidebar">
-            <aside class="section" role="complementary">
-              {{ page.sidebar_second }}
-            </aside>
-          </div>
-        {% endif %}
-      </div>
-    </div>
-    </main>
-
-    {% if page.featured_bottom_first or page.featured_bottom_second or page.featured_bottom_third %}
-      <div class="featured-bottom">
-        <aside class="layout-container clearfix" role="complementary">
-          {{ page.featured_bottom_first }}
-          {{ page.featured_bottom_second }}
-          {{ page.featured_bottom_third }}
-        </aside>
-      </div>
-    {% endif %}
-    <footer class="site-footer">
-      <div class="layout-container">
-        {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-          <div class="site-footer__top clearfix">
-            {{ page.footer_first }}
-            {{ page.footer_second }}
-            {{ page.footer_third }}
-            {{ page.footer_fourth }}
-          </div>
-        {% endif %}
-        {% if page.footer_fifth %}
-          <div class="site-footer__bottom">
-            {{ page.footer_fifth }}
-          </div>
-        {% endif %}
-      </div>
-    </footer>
+    <div class="product-wrap flex flex-row justify-content_flex-justify">
+            <div class="product-list">
+              <a href="https://www.mckinsey.com/industries/advanced-electronics/our-insights/iiot-platforms-the-technology-stack-as-value-driver-in-industrial-equipment-and-machinery
+                    " target="_blank"><img class="img" src="./themes/mytheme/assets/image/home/product1.jpg" alt="product" srcset=""></a>
+                
+                <p class="label">Report</p>
+                <!--<h4 class="date">September 2018</h4>-->
+                
+                <h3 class="title"><a href="https://www.mckinsey.com/industries/advanced-electronics/our-insights/iiot-platforms-the-technology-stack-as-value-driver-in-industrial-equipment-and-machinery
+                    " target="_blank">IIoT platforms: The technology stack as value driver in industrial equipment and machinery</a></h3>
+                <a class="layui-btn btn" href="https://www.mckinsey.com/industries/advanced-electronics/our-insights/iiot-platforms-the-technology-stack-as-value-driver-in-industrial-equipment-and-machinery
+                    " target="_blank"><i class="iconfont  icon-xiangyou"></i> </a>
+                <p class="des">September 2018 – Equipment and machinery companies considering a transformation to embrace the Industrial Internet of Things (IIoT) need to develop... </p>
+                 
+            </div>
+            <div class="product-list">
+              <a href="https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/the-internet-of-things-the-value-of-digitizing-the-physical-world" target="_blank">
+                <img class="img" src="./themes/mytheme/assets/image/home/product2.jpg" alt="product" srcset="">
+              </a>
+                
+                <p class="label">Report - McKinsey Global Institute</p>
+                 <!--<h4 class="date">September 2018</h4>--> 
+                <h3 class="title">
+                    <a href="https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/the-internet-of-things-the-value-of-digitizing-the-physical-world" target="_blank">Unlocking the potential of the Internet of Things</a>
+                </h3>
+                <p class="des">September 2018 – If policy makers and businesses get it right, linking the physical and digital worlds could generate up to $11.1 trillion a year in economic value by 2025.... </p>
+                <a class="layui-btn btn" href="https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/the-internet-of-things-the-value-of-digitizing-the-physical-world" target="_blank"><i class="iconfont  icon-xiangyou"></i> </a> 
+            </div>
+            <div class="product-list">
+              <a href="https://www.mckinsey.com/business-functions/operations/our-insights/how-the-internet-of-things-will-reshape-future-production-systems" target="_blank">
+                <img class="img" src="./themes/mytheme/assets/image/home/product4.jpg" alt="product" srcset="">
+              </a>
+                
+                <p class="label">Article</p>
+                <!--<h4 class="date">September 2017</h4>-->
+                <h3 class="title">
+                    <a href="https://www.mckinsey.com/business-functions/operations/our-insights/how-the-internet-of-things-will-reshape-future-production-systems" target="_blank">How the Internet of Things will reshape future production systems</a>
+                </h3>
+                <p class="des">September 2017 – Rich data, ubiquitous connectivity, and real-time communication are changing the way companies work. For leaders, that transformation... </p>
+                <a class="layui-btn btn" href="https://www.mckinsey.com/business-functions/operations/our-insights/how-the-internet-of-things-will-reshape-future-production-systems" target="_blank"><i class="iconfont  icon-xiangyou"></i> </a> 
+            </div>
+            <div class="product-list">
+              <a href="https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/what-it-takes-to-get-an-edge-in-the-internet-of-things" target="_blank">
+                <img class="img" src="./themes/mytheme/assets/image/home/product3.jpg" alt="product" srcset="">
+              </a>
+                
+                <p class="label">Article - McKinsey Quarterly</p>
+                <!--<h4 class="date">September 2018</h4>-->
+                <h3 class="title">
+                    <a href="https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/what-it-takes-to-get-an-edge-in-the-internet-of-things" target="_blank">What it takes to get an edge in the Internet of Things</a>
+                </h3>
+                <p class="des"> September 2018 – Three practices can help differentiate successful companies from those that struggle to gain traction.... </p>
+                <a class="layui-btn btn" href="https://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/what-it-takes-to-get-an-edge-in-the-internet-of-things" target="_blank"><i class="iconfont  icon-xiangyou"></i> </a>  
+            </div>
+        </div>
+        <footer id="id" class="flex flex-row justify-content_flex-justify">
+          <div class="left">McKinsey&Company</div>
+          <!-- <div class="right">Suggestions? <a>Send us feedback</a></div> -->
+        </footer> 
   </div>
 </div>

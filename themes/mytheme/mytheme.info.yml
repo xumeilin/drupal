@@ -6,8 +6,11 @@ basetheme: classy
 
 regions:
   header: 'Header'
-  content: 'Content'
-  footer: 'Footer'
+  leftvideo: '左侧视频'
+  middletext: '中间内容'
+  featuredlinks: '特色链接'
+  contentlist: '首页列表'
+  footer: '页脚'
 
 libraries:
   - mytheme/global-styling
